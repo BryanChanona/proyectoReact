@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contentNav {
+    background-color: #0097a7;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    
+}
+
+.navBar {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 200px; /* Espacio de separación */
+}
+
+.navBar a {
+    font-size: 20px;
+    text-decoration: none; /* Quitar subrayado */
+    color: #ffffff; /* Color de texto */
+    padding: 10px; /* Añadir relleno para mejorar la accesibilidad */
+}

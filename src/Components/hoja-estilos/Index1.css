@@ -1,0 +1,47 @@
+.container {
+    width: 80%;
+    background-color: rgb(205, 231, 231);
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos hijos en columna */
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); /* Añadí la sombra aquí */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px; /* Añadido para espacio interior */
+}
+
+.imagenContainer {
+    background-color: rgb(255, 255, 255);
+    width: 640px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8); /* Añadí la sombra aquí */
+    margin-bottom: 20px; /* Espacio debajo del contenedor de imagen */
+}
+
+.descripcion {
+    width: 640px;
+    height: auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    padding: 20px; /* Añadido para espacio interior */
+    margin-bottom: 20px; /* Espacio debajo de la descripción */
+    border-radius: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between; /* Espacia las tarjetas horizontalmente */
+    width: 100%; /* Ajusta el ancho a 100% del contenedor */
+}
+
+.info .card {
+    flex: 1; /* Las tarjetas ocupan el mismo espacio */
+    margin: 0 10px; /* Margen horizontal entre las tarjetas */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}

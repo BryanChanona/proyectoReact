@@ -1,0 +1,23 @@
+
+.hero {
+    background-image: url(src/Components/imagenes/fondo2.jpg); /*Aca mejoramos la imagen/fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenidoHero{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-hero {
+    color: white;
+}
